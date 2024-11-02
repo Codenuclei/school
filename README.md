@@ -15,7 +15,7 @@
 - 🤖 **AI Study Coach** - Real-time learning recommendations
 - 🧪 **Project Labs** - Hands-on project-based learning
 - 🎓 **Career Pathways** - AI-guided career development
-- 🎯🤖![alt text](image.png) **AI-Powered Smart Learning System** - AI-driven personalized learning experience
+- <img src="image.png" width="16" height="16"/> 🎯🤖 **AI-Powered Smart Learning System** - AI-driven personalized learning experience
 ### Learning Assistants
 - 📚 **Study Hub** - Smart note-taking & flashcards
 - 🔢 **Calculator Suite** - Advanced math & science tools
