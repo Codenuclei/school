@@ -1,91 +1,63 @@
-<h1 align="center">
-    <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="30px"> AI Education Platform
-</h1>
+# 🚀 AI Education Platform
 
-<p align="center">
-    <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status">
-    <img src="https://img.shields.io/badge/platform-web-blue.svg" alt="Platform">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
-</p>
+> An intelligent learning companion powered by artificial intelligence
 
-<div align="center">
-    <img src="https://media.giphy.com/media/l378c04F2fjeZ7vH2/giphy.gif" width="300px" />
-</div>
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/ai-education-platform?style=social)](https://github.com/yourusername/ai-education-platform)
+[![GitHub Issues](https://img.shields.io/github/issues/yourusername/ai-education-platform)](https://github.com/yourusername/ai-education-platform/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/yourusername/ai-education-platform)](https://github.com/yourusername/ai-education-platform/pulls)
+[![License](https://img.shields.io/github/license/yourusername/ai-education-platform)](LICENSE)
 
-<p align="center">
-    <i>An intelligent learning companion powered by artificial intelligence</i>
-</p>
+| Core Features | Description |
+|--------------|-------------|
+| 🏠 **Home** | Your learning journey starts here |
+| 🔐 **Login/Signup** | Join our knowledge community |
+| 📊 **Dashboard** | Your personalized learning hub |
+| 👤 **Profile** | Customize your learning experience |
+| 🏆 **Leaderboards** | Compete and grow together |
+| 🎯 **Achievement Badges** | Earn recognition |
+| 🌟 **Progress Rankings** | Track your success |
+| 🤝 **Friendly Challenges** | Learn through competition |
+| 🎉 **Weekly Competitions** | Fun learning contests |
+| 🤖 **AI Study Coach** | Real-time learning recommendations |
+| 🧪 **Project Labs** | Hands-on project-based learning |
+| 🎓 **Career Pathways** | AI-guided career development |
+| <img src="image.png" width="19" height="19"/> 🎯🤖 **AI-Powered Smart Learning** | AI-driven personalized learning experience |
 
-<div align="center">
-    
-    [🏠 Home](/#) •
-    [📚 Learn](/#) •
-    [💡 Explore](/#) •
-    [👥 Community](/#) •
-    [📱 Download](/#)
-    
-</div>
+| Learning Assistants | Description |
+|-------------------|-------------|
+| 📚 **Study Hub** | Smart note-taking & flashcards |
+| 🔢 **Calculator Suite** | Advanced math & science tools |
+| ✍️ **Writing Assistant** | Essays & grammar support |
+| 📝 **Homework Helper** | Intelligent assignment support |
+| 🎯 **Adaptive Learning** | Personalized learning paths |
+| 🧠 **Knowledge Gaps Detector** | AI-powered assessment |
+| 🎓 **Study Pace Optimizer** | Smart scheduling system |
 
-<hr style="background: linear-gradient(to right, #00c6ff, #0072ff); height: 2px; border: 0;">
+| Specialized Tools | Description |
+|------------------|-------------|
+| 🌐 **Language Lab** | Master new languages |
+| 💻 **Code Academy** | Learn programming interactively |
+| 🎨 **Creative Studio** | Explore art & music |
+| 🔬 **Science Center** | Virtual labs & simulations |
+| 📄 **Research Assistant** | Academic excellence tools |
+| 🤖 **AI Tutor** | 24/7 personalized tutoring |
+| 🎮 **Gamified Learning** | Educational games & quests |
+| 🗣️ **Voice Learning** | Audio-based study tools |
 
-## 🎯 Core Features
+| Community | Description |
+|-----------|-------------|
+| 💬 **Forums** | Connect with learners |
+| 📚 **Resources** | Curated learning materials |
+| 📰 **Blog** | Latest in EdTech |
+| 🤝 **Peer Learning** | AI-matched study groups |
+| 🏆 **Achievement System** | Smart progress tracking |
 
-<table align="center">
-    <tr>
-        <td align="center"><b>🏠 Home</b></td>
-        <td align="center"><b>🔐 Login</b></td>
-        <td align="center"><b>📊 Dashboard</b></td>
-        <td align="center"><b>👤 Profile</b></td>
-    </tr>
-    <tr>
-        <td align="center"><b>🏆 Leaderboards</b></td>
-        <td align="center"><b>🎯 Badges</b></td>
-        <td align="center"><b>🌟 Rankings</b></td>
-        <td align="center"><b>🤝 Challenges</b></td>
-    </tr>
-</table>
+| Platform Info | Description |
+|---------------|-------------|
+| 👨‍💼 **Admin Portal** | Platform management |
+| 📜 **Legal** | Terms & privacy |
+| ❓ **Help Center** | Support & guidance |
+| 📈 **Analytics** | Learning insights dashboard |
 
-## 🤖 AI-Powered Learning
-
-<div align="center">
-    <img src="https://media.giphy.com/media/l378c04F2fjeZ7vH2/giphy.gif" width="200px" />
-</div>
-
-### 📚 Learning Assistants
-- Study Hub with Smart Notes
-- Advanced Calculator Suite  
-- Intelligent Writing Assistant
-- AI Homework Helper
-- Adaptive Learning Paths
-- Knowledge Gap Detection
-- Smart Study Scheduling
-
-### 🛠️ Specialized Tools
-```mermaid
-graph LR
-        A[Language Lab] --> B[Code Academy]
-        B --> C[Creative Studio]
-        C --> D[Science Center]
-        D --> E[AI Tutor]
-```
-
-## 🌟 Community Features
-
-<div align="center">
-    
-| Feature | Description |
-|---------|------------|
-| 💬 Forums | Connect with learners |
-| 📚 Resources | Curated materials |
-| 📰 Blog | EdTech updates |
-| 🤝 Peer Learning | AI study groups |
-
-</div>
-
-<hr style="background: linear-gradient(to right, #fc00ff, #00dbde); height: 2px; border: 0;">
-
-<div align="center">
-    <i>Empowering education through AI innovation</i>
-    <br><br>
-    <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="30px">
-</div>
+---
+*Empowering education through AI innovation*
