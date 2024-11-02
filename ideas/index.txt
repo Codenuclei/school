@@ -1,0 +1,28 @@
+Core Pages:
+- index.html - Home page
+- Login.html - User login page 
+- Signup.html - User registration page
+- Dashboard.html - Main user dashboard
+- Profile.html - User profile and settings
+- About.html - About, FAQ, Support combined
+
+Essential AI Tools:
+- ai-study-hub.html - Combined study tools (notes, flashcards, planner)
+- ai-calculator.html - Combined math/science calculators
+- ai-writing.html - Combined writing tools (essays, grammar, citations)
+- ai-homework.html - Homework and research assistant
+- ai-language.html - Language learning and translation
+- ai-code-learning.html - Programming learning tools
+- ai-creative.html - Creative tools (art, music, writing)
+- ai-science.html - Science visualization and simulation
+- ai-research.html - Research and paper assistance
+
+Administrative:
+- AdminDashboard.html - Admin controls
+- Legal.html - Combined legal pages (terms, privacy, compliance)
+- Help.html - Combined help resources
+
+Optional:
+- Community.html - Forums and discussions
+- Resources.html - Additional learning materials
+- Blog.html - News and updates
