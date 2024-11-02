@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/github/license/Codenuclei/school)](LICENSE)
 
 
-    | Core Features | Description |
+| Core Features | Description |
 |--------------|-------------|
 | 🏠 **Home** | Your learning journey starts here |
 | 🔐 **Login/Signup** | Join our knowledge community |
@@ -25,7 +25,7 @@
 | <img src="image.png" width="19" height="19"/> 🎯🤖 **AI-Powered Smart Learning** | AI-driven personalized learning experience |
 
 
-    | Learning Assistants | Description |
+| Learning Assistants | Description |
 |-------------------|-------------|
 | 📚 **Study Hub** | Smart note-taking & flashcards |
 | 🔢 **Calculator Suite** | Advanced math & science tools |
@@ -36,7 +36,7 @@
 | 🎓 **Study Pace Optimizer** | Smart scheduling system |
 
 
-    | Specialized Tools | Description |
+| Specialized Tools | Description |
 |------------------|-------------|
 | 🌐 **Language Lab** | Master new languages |
 | 💻 **Code Academy** | Learn programming interactively |
@@ -48,7 +48,7 @@
 | 🗣️ **Voice Learning** | Audio-based study tools |
 
 
-    | Community | Description |
+| Community | Description |
 |-----------|-------------|
 | 💬 **Forums** | Connect with learners |
 | 📚 **Resources** | Curated learning materials |
@@ -57,7 +57,7 @@
 | 🏆 **Achievement System** | Smart progress tracking |
 
 
-    | Platform Info | Description |
+| Platform Info | Description |
 |---------------|-------------|
 | 👨‍💼 **Admin Portal** | Platform management |
 | 📜 **Legal** | Terms & privacy |
