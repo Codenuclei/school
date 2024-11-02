@@ -2,10 +2,10 @@
 
 > An intelligent learning companion powered by artificial intelligence
 
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/ai-education-platform?style=social)](https://github.com/yourusername/ai-education-platform)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/ai-education-platform)](https://github.com/yourusername/ai-education-platform/issues)
-[![GitHub PRs](https://img.shields.io/github/issues-pr/yourusername/ai-education-platform)](https://github.com/yourusername/ai-education-platform/pulls)
-[![License](https://img.shields.io/github/license/yourusername/ai-education-platform)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Codenuclei/school?style=social)](https://github.com/Codenuclei/school)
+[![GitHub Issues](https://img.shields.io/github/issues/Codenuclei/school)](https://github.com/Codenuclei/school/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/Codenuclei/school)](https://github.com/Codenuclei/school/pulls)
+[![License](https://img.shields.io/github/license/Codenuclei/school)](LICENSE)
 
 | Core Features | Description |
 |--------------|-------------|
@@ -61,3 +61,4 @@
 
 ---
 *Empowering education through AI innovation*
+
