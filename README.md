@@ -7,7 +7,8 @@
 [![GitHub PRs](https://img.shields.io/github/issues-pr/Codenuclei/school)](https://github.com/Codenuclei/school/pulls)
 [![License](https://img.shields.io/github/license/Codenuclei/school)](LICENSE)
 
-| Core Features | Description |
+
+    | Core Features | Description |
 |--------------|-------------|
 | 🏠 **Home** | Your learning journey starts here |
 | 🔐 **Login/Signup** | Join our knowledge community |
@@ -23,7 +24,8 @@
 | 🎓 **Career Pathways** | AI-guided career development |
 | <img src="image.png" width="19" height="19"/> 🎯🤖 **AI-Powered Smart Learning** | AI-driven personalized learning experience |
 
-| Learning Assistants | Description |
+
+    | Learning Assistants | Description |
 |-------------------|-------------|
 | 📚 **Study Hub** | Smart note-taking & flashcards |
 | 🔢 **Calculator Suite** | Advanced math & science tools |
@@ -33,7 +35,8 @@
 | 🧠 **Knowledge Gaps Detector** | AI-powered assessment |
 | 🎓 **Study Pace Optimizer** | Smart scheduling system |
 
-| Specialized Tools | Description |
+
+    | Specialized Tools | Description |
 |------------------|-------------|
 | 🌐 **Language Lab** | Master new languages |
 | 💻 **Code Academy** | Learn programming interactively |
@@ -44,7 +47,8 @@
 | 🎮 **Gamified Learning** | Educational games & quests |
 | 🗣️ **Voice Learning** | Audio-based study tools |
 
-| Community | Description |
+
+    | Community | Description |
 |-----------|-------------|
 | 💬 **Forums** | Connect with learners |
 | 📚 **Resources** | Curated learning materials |
@@ -52,7 +56,8 @@
 | 🤝 **Peer Learning** | AI-matched study groups |
 | 🏆 **Achievement System** | Smart progress tracking |
 
-| Platform Info | Description |
+
+    | Platform Info | Description |
 |---------------|-------------|
 | 👨‍💼 **Admin Portal** | Platform management |
 | 📜 **Legal** | Terms & privacy |
