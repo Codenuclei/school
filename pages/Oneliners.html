@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Draggable Oneliners</title>
+    <style>
+        :root {
+            --bg: #1a1a1a;
+            --text: #f0f0f0;
+            --neon: #00ff9d;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 1000px;
+            overflow: hidden;
+        }
+
+        .oneliner {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-left: 3px solid var(--neon);
+            transform-origin: left;
+            opacity: 0;
+            animation: slideIn 0.8s forwards ease-out;
+            animation-delay: calc(var(--i, 0) * 0.2s);
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            cursor: grab;
+            color: var(--text);
+            /* Ensure text color is explicitly set */
+            text-shadow: 0 0 2px rgba(240, 240, 240, 0.5);
+            /* Add subtle glow */
+            font-weight: 500;
+            /* Make text slightly bolder */
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            animation: floatAndRotate 12s infinite ease-in-out;
+            cursor: move;
+            user-select: none;
+        }
+
+        .oneliner:active {
+            cursor: grabbing;
+            transform: scale(1.02);
+        }
+
+        .oneliner.dragging {
+            position: relative;
+            z-index: 1000;
+            box-shadow: 0 5px 15px rgba(0, 255, 157, 0.2);
+        }
+
+        @keyframes floatAndRotate {
+            0% {
+                transform: translateY(0) rotateX(0) rotateZ(0) scale(1);
+            }
+
+            25% {
+                transform: translateY(-20px) rotateX(3deg) rotateZ(-2deg) scale(1.02);
+            }
+
+            50% {
+                transform: translateY(-30px) rotateX(-2deg) rotateZ(1deg) scale(1.01);
+            }
+
+            75% {
+                transform: translateY(-15px) rotateX(2deg) rotateZ(-1deg) scale(1.03);
+            }
+
+            100% {
+                transform: translateY(0) rotateX(0) rotateZ(0) scale(1);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-50px) rotateY(-10deg);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0) rotateY(0);
+                opacity: 1;
+            }
+        }
+
+        .oneliner:hover {
+            animation: pulse 1s ease-in-out;
+            color: #fff;
+            text-shadow: 0 0 10px var(--neon);
+            background: rgba(0, 255, 157, 0.1);
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .text-glitch {
+            animation: glitch 3s infinite;
+        }
+
+        .text-wave {
+            animation: wave 2s infinite;
+        }
+
+        .text-flicker {
+            animation: flicker 0.5s infinite alternate;
+        }
+
+
+        .text-glitch {
+            animation: glitch 3s infinite;
+        }
+
+        .text-wave {
+            animation: wave 2s infinite;
+        }
+
+        .text-flicker {
+            animation: flicker 0.5s infinite alternate;
+        }
+
+        @keyframes glitch {
+            0% {
+                transform: none;
+                opacity: 1;
+            }
+
+            7% {
+                transform: skew(-0.5deg, -0.9deg);
+                opacity: 0.75;
+            }
+
+            10% {
+                transform: none;
+                opacity: 1;
+            }
+
+            27% {
+                transform: none;
+                opacity: 1;
+            }
+
+            30% {
+                transform: skew(0.8deg, -0.1deg);
+                opacity: 0.75;
+            }
+
+            35% {
+                transform: none;
+                opacity: 1;
+            }
+        }
+
+        @keyframes wave {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        @keyframes flicker {
+            0% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+       .oneliner:nth-child(n){
+            animation: glitch  3s infinite;
+       }
+      
+    </style>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="oneliner" style="--i: 0" draggable="true">Life is like a box of chocolates...</div>
+        <div class="oneliner" style="--i: 1" draggable="true">Keep calm and code on!</div>
+        <div class="oneliner" style="--i: 2" draggable="true">To be or not to be, that is the question.</div>
+        <div class="oneliner" style="--i: 3" draggable="true">May the force be with you!</div>
+        <div class="oneliner" style="--i: 4" draggable="true">I'll be back.</div>
+    </div>
+
+    <script>
+        const container = document.getElementById('container');
+        const oneliners = document.querySelectorAll('.oneliner');
+
+        oneliners.forEach(oneliner => {
+            oneliner.addEventListener('dragstart', (e) => {
+                e.target.classList.add('dragging');
+                e.dataTransfer.setData('text/plain', e.target.innerHTML);
+            });
+
+            oneliner.addEventListener('dragend', (e) => {
+                e.target.classList.remove('dragging');
+            });
+
+            oneliner.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                const draggable = document.querySelector('.dragging');
+                const afterElement = getDragAfterElement(container, e.clientY);
+
+                if (afterElement == null) {
+                    container.appendChild(draggable);
+                } else {
+                    container.insertBefore(draggable, afterElement);
+                }
+            });
+        });
+
+        function getDragAfterElement(container, y) {
+            const draggableElements = [...container.querySelectorAll('.oneliner:not(.dragging)')];
+
+            return draggableElements.reduce((closest, child) => {
+                const box = child.getBoundingClientRect();
+                const offset = y - box.top - box.height / 2;
+
+                if (offset < 0 && offset > closest.offset) {
+                    return { offset: offset, element: child };
+                } else {
+                    return closest;
+                }
+            }, { offset: Number.NEGATIVE_INFINITY }).element;
+        }
+    </script>
+</body>
+
+</html>
+<div class="theme-switcher">
+    <button onclick="setTheme('dark')"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></span></button>
+    <button onclick="setTheme('light')"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg></span></button>
+</div>
+
+<script>
+
+    function setTheme(theme) {
+        if (theme === 'dark') {
+            document.documentElement.style.setProperty('--bg', '#1a1a1a');
+            document.documentElement.style.setProperty('--text', '#f0f0f0');
+            document.documentElement.style.setProperty('--neon', '#00ff9d');
+        } else if (theme === 'light') {
+            document.documentElement.style.setProperty('--bg', '#FEF3E2');
+            document.documentElement.style.setProperty('--text', '#FA4032');
+            document.documentElement.style.setProperty('--neon', '#FA812F');
+        }
+    }
+</script></div>
